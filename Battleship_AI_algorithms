@@ -1,8 +1,14 @@
-Hey guys.. Found a Battleship AI algorithm page for our Easy, Medium, Hard, and Nightmare(?) Mode:
+Hey guys.. Found several Battleship AI algorithm pages for our Easy, Medium, Hard, and Nightmare(?) Mode:
 
-http://www.datagenetics.com/blog/december32011/index.html
+General approach - conceptual: http://www.somethinkodd.com/oddthinking/2009/10/29/battleship-strategy/
+A little more specific - has all 4 modes: http://www.datagenetics.com/blog/december32011/index.html
+using dynamic programming techniques: http://christopherstoll.org/2012/06/battleship-ai-algorithm-using-dynamic.html
 
-I think this page would be a very good starting point, but we would have to translate all these steps into code.
+The last one has actual code in Java, but it is a bit more technical, perhaps a little too technical for us.
+NEvertheless, his approach might be useful in translating the other two approaches into useful code for us,
+so I included it in this post.
+
+I think these are very good starting points, but we would have to translate all these steps into code.
 The first mode, Easy, is just random targeting. We can do this one with our eyes closed using a
 simple random number generator. THe other 3 (or 4) are more difficult to work out, code-wise. We'd
 have to discuss this at length. Thanks. If you have any other suggestions, feel free to post them
