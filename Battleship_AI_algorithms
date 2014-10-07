@@ -1,0 +1,11 @@
+Hey guys.. Found a Battleship AI algorithm page for our Easy, Medium, Hard, and Nightmare(?) Mode:
+
+http://www.datagenetics.com/blog/december32011/index.html
+
+I think this page would be a very good starting point, but we would have to translate all these steps into code.
+The first mode, Easy, is just random targeting. We can do this one with our eyes closed using a
+simple random number generator. THe other 3 (or 4) are more difficult to work out, code-wise. We'd
+have to discuss this at length. Thanks. If you have any other suggestions, feel free to post them
+or send them through mass text. Thanks again!
+
+-Ezra G.-
