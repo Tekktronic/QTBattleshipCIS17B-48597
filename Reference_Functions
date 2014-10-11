@@ -1,0 +1,22 @@
+Hey guys! Refer to the following functions in Player.cpp:
+
+(I did not include the parameters for these functions in this post. I used typedefs, so use the appropriate
+typedefs for the driver program you will be testing the modified functions in:
+  - typedef char (*grid)[10]       //typedef that defines a pointer to a grid (2D array)
+  - typedef vector<Ship *> (USS)   //typedef for a vector of pointers to a ship instance
+Volley() - void function with no return value, generates the coordinates to shoot and updates the grid
+Impact() - resloves the hits or misses, as well as informs whether a ship has been sunk, returns a short
+GetCoord() - boolean function, returns T or F if the coordinates generated are valid
+
+These functions should be modified for the Medium mode AI. If you have any questions
+or need any input, feel free to ask me. Iterating through the grid should be easy using
+bracket notation, since we only need to worry about adding an offset of 1 to the appropriate
+coordinate/s to move in any direction.
+
+Impact currently has no return statement, that gives us a way to extend functionality.
+Maybe return the value of the ship that was sunk, as a short(ex., if Aircraft Carrier was sunk, return 5),
+so we can keep track of which ships are still in play. What do you think?
+
+Also, GetCoord() will need to be revised, or may even be unnecessary.
+
+-Ezra G.-
