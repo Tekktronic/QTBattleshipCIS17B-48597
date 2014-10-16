@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2014-10-15T18:13:02
+# Project created by QtCreator 2014-10-14T23:09:45
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = QTBattleship
+TARGET = QT_Battleship_Project
 TEMPLATE = app
 
 
